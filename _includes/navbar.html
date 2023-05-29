@@ -30,7 +30,7 @@
 				</li>
 				{%- for item in site.navbar.nav -%}
 					{%- if item.child[0] -%}
-				<li class="nav-item dropdown my-0 py-1">
+				<li class="nav-item dropright my-0 py-1">
 					{%- assign containteractive  =  false -%}
 					{%- for all in item.child -%}
 						{%- if thispageurl == all.url -%}
