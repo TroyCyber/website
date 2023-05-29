@@ -8,3 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem "webrick", "~> 1.8"
 end
+
+gem "webrick", "~> 1.8"
