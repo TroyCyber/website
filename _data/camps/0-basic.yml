@@ -1,24 +1,49 @@
 camp: 
   title: "Basic Cyber Camp"
-  description: "Troy High School is proud to host our 8th summer of cyber camps this summer in June. The camp will be open to all students entering into grades 6-12. "
-  grades: "9-12"
+  description: "This camp will greatly aid students interested in experiencing cybersecurity firsthand. Students will learn the fundamentals of cybersecurity and the basics of securing Windows 10 and Linux (Ubuntu) workstations, making them more difficult to exploit. Students will also be introduced to networking. "
+  grades: "6-12"
   experience:
       required: false
       description: We will be using the CyberPatriot ELEMENTARY SCHOOL CYBER EDUCATION INITIATIVE.
   sessions:
-    - duration: July 17-21, 9am-Noon (coed room)
-      in-person: true
-      spots: 10
-    - duration: July 17-21, 1pm-4pm (coed room)
-      in-person: true
-      spots: 0
-    - duration: July 17-21, 1pm-4pm (coed room)
-      in-person: true
-      spots: -5
+    - duration: July 17-21
+      sections:
+        - time: 9AM - Noon
+          roomType: Co-ed
+          in-person: true
+          spots: -13
+        - time: 9AM - Noon
+          roomType: Female
+          in-person: true
+          spots: 6
+        - time: 1PM - 4PM
+          roomType: Co-ed
+          in-person: true
+          spots: 5
+        - time: 1PM - 4PM
+          roomType: Female
+          in-person: true
+          spots: 10
+    - duration: July 24-28
+      sections:
+        - time: 9AM - Noon
+          roomType: Co-ed
+          in-person: true
+          spots: 10
+        - time: 9AM - Noon
+          roomType: Female
+          in-person: true
+          spots: 7
+        - time: 1PM - 4PM
+          roomType: Co-ed
+          in-person: true
+          spots: 7
+        - time: 1PM - 4PM
+          roomType: Female
+          in-person: true
+          spots: 1
   objectives:
-    - title: Windows
-      description: Learn Windows
-    - title: Linux
-      description: Learn Linux
-  fee: "$100"
+    - title: Overview of Cybersecurity
+      description: In this 15-hour camp, students will learn the basic fundamentals of cybersecurity as well as the foundational security of Windows, Linux, and Cisco. At the end of the week, students will participate in a mini-competition for prizes!
+  fee: "$150"
   registration: https://forms.gle/GZBimbiiJFKGb4CZ6
