@@ -14,10 +14,10 @@ show_sidetoc: true
             <a href="#{{ url }}">
                 <div class="text-left my-4 py-5 px-3 rounded-lg chulapa-overlay-img text-white" style="background-color: var(--primary)">
                 <h2 class="py-3">{{ camp.title }}</h2>
-                <p class="lead font-weight-light py-2">{{ camp.grades }}</p>
+                <p class="lead font-weight-light py-2">Grade Level: {{ camp.grades }}</p>
                 <p class="lead font-weight-light py-2">
                     {% for session in camp.sessions %}
-                        {{ session.duration | split: "," | first }}{% unless forloop.last %}, {% endunless %}
+                        {{ session.duration | split: ',' | first }}{% unless forloop.last %}, {% endunless %}
                     {% endfor %}
                 </p>
                 </div>
@@ -55,9 +55,11 @@ show_sidetoc: true
         <b>Sessions:</b>
         <ul>
         {% for session in camp.sessions -%}
-            <li>
-                {{ session.duration }} - <span {% if session.spots > 0 %}class="available">{{ session.spots }} spots remaining{% elsif session.spots == 0 %} class="waitlist">No spots remaining{% else %} class="waitlist">{{ session.spots | times: -1 }} spots on WAITLIST{% endif %}</span>
-            </li>
+            {% for section in session.sections -%}
+                <li>
+                    {{ session.duration }}, {{ section.time }} ({{ section.roomType }}){% if section.spots %} - <span {% if section.spots > 0 %}class="available">{{ section.spots }} spots remaining{% elsif section.spots == 0 %} class="waitlist">No spots remaining{% else %} class="waitlist">{{ section.spots | times: -1 }} spots on WAITLIST{% endif %}</span>{% endif %}
+                </li>
+            {% endfor -%}
         {% endfor -%}
         </ul>
     </p>

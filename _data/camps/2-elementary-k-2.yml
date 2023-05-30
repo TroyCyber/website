@@ -1,18 +1,37 @@
 camp: 
-  title: "Basic Cyber Camp"
-  description: "Basic Camp"
-  grades: "9-12"
+  title: "Elementary Cyber Camp (K-2)"
+  description: "This camp is designed for students entering grades K-2. It onsists of two 3-hour sessions in person at Troy HS during the morning or afternoon."
+  grades: "K-2"
   experience:
-      required: true
-      description: Attending this camp will greatly aid those who are interested in finding out first hand what cybersecurity is all about. Students will learn the fundamentals of cybersecurity, and the basics on making Windows 10 and Linux (Ubuntu) work stations safer and harder to break into. Students will also be introduced to networking. 
+      required: false
+      description: We will be using the CyberPatriot ELEMENTARY SCHOOL CYBER EDUCATION INITIATIVE.
   sessions:
-    - duration: July 17-21, 9am-Noon (coed room)
-      in-person: true
-      spots: 10
+    - duration: July 17-18
+      sections:
+        - time: 9AM - Noon
+          roomType: Co-ed
+          in-person: true
+          spots: 6
+        - time: 1PM - 4PM
+          roomType: Co-ed
+          in-person: true
+          spots: 1
+    - duration: July 24-25
+      sections:
+        - time: 9AM - Noon
+          roomType: Co-ed
+          in-person: true
+          spots: 5
+        - time: 1PM - 4PM
+          roomType: Co-ed
+          in-person: true
+          spots: 4
   objectives:
-    - title: Windows
-      description: Learn Windows
-    - title: Linux
-      description: Learn Linux
-  fee: "$100"
+    - title: Introduction to Cybersecurity
+      description: Introduce students to safe computing practices, explain good password practice, and explore the building blocks of cybersecurity on a network
+    - title: Interactive
+      description: We will use a combination of games and interactive activities
+    - title: Ben the Cyber Defender
+      description: We will conclude with a reading of Ben the Cyber Defender
+  fee: "$60"
   registration: https://forms.gle/GZBimbiiJFKGb4CZ6

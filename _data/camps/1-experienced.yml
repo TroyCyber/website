@@ -1,18 +1,22 @@
 camp: 
-  title: "Basic Cyber Camp"
-  description: "Basic Camp"
-  grades: "9-12"
+  title: "Experienced Cyber Camp"
+  description: "This camp is open to Troy High School and supported middle school students only. There is no intermediate camp this year. Middle school students with experience should take the Basic camp to learn about new specialties."
+  grades: "6-12"
   experience:
       required: true
-      description: Attending this camp will greatly aid those who are interested in finding out first hand what cybersecurity is all about. Students will learn the fundamentals of cybersecurity, and the basics on making Windows 10 and Linux (Ubuntu) work stations safer and harder to break into. Students will also be introduced to networking. 
+      description: At least one year at Troy HS in the specialty area.
   sessions:
-    - duration: July 17-21, 9am-Noon (coed room)
-      in-person: true
-      spots: 10
+    - duration: July 10-14
+      sections:
+        - time: 9AM - Noon
+          roomType: Co-ed
+          in-person: true
   objectives:
     - title: Windows
-      description: Learn Windows
+      description: In this 15-hour camp, students will review the basics of Windows security and learn advanced Windows security. At the end of the week, students will participate in a mini-competition for prizes!
     - title: Linux
-      description: Learn Linux
-  fee: "$100"
+      description: In this 15-hour camp, students will review the basics of Linux security and learn advanced Linux security. At the end of the week, students will participate in a mini-competition for prizes!
+    - title: Networking
+      description: In this 15-hour camp, students will review the basics of Cisco networking and learn advanced Cisco networking. At the end of the week, students will participate in a mini-competition for prizes! 
+  fee: "$200"
   registration: https://forms.gle/GZBimbiiJFKGb4CZ6
