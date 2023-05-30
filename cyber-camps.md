@@ -33,7 +33,6 @@ show_sidetoc: true
 <div class="container mb-4">
     <h2 id="{{ url }}">
         {{ camp.title }}
-        <a class="chulapa-header-link ml-2 chulapaDateSocial" href="#{{ url }}" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link fa-2xs align-middle"></i></a>
     </h2>
     <p>
         <b>Description:</b>
