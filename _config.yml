@@ -151,7 +151,7 @@ chulapa-skin:
     primary     :   #default ["#007bff"] - Bootstrap blue
     info        : "#EB1E32"
     font-family-base: Heebo
-    landingpage-chulapa-bg-color: "#0A0A06"
+    landingpage-chulapa-bg-color: "#18141D"
 
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
