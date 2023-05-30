@@ -131,10 +131,6 @@ navbar:
 
 #Social links to be placed on your site footer
 footer:
-  links:
-    - label : #Label
-      icon  : # Fontawesome 5 icon
-      url   : # A link or email: https://twitter.com/jack, mail@example.com
   copyright: # default is © <year> <name>
 
 # C. Theme Settings
