@@ -6,3 +6,15 @@
 .bg-primary {
     background-color: #EB1E32 !important;
 }
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.available {
+    color: var(--green);
+}
+
+.waitlist {
+    color: var(--red);
+}
