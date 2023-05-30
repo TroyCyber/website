@@ -1,0 +1,18 @@
+camp: 
+  title: "Basic Cyber Camp"
+  description: "Basic Camp"
+  grades: "9-12"
+  experience:
+      required: true
+      description: Attending this camp will greatly aid those who are interested in finding out first hand what cybersecurity is all about. Students will learn the fundamentals of cybersecurity, and the basics on making Windows 10 and Linux (Ubuntu) work stations safer and harder to break into. Students will also be introduced to networking. 
+  sessions:
+    - duration: July 17-21, 9am-Noon (coed room)
+      in-person: true
+      spots: 10
+  objectives:
+    - title: Windows
+      description: Learn Windows
+    - title: Linux
+      description: Learn Linux
+  fee: "$100"
+  registration: https://forms.gle/GZBimbiiJFKGb4CZ6

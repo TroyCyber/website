@@ -1,0 +1,24 @@
+camp: 
+  title: "Basic Cyber Camp"
+  description: "Troy High School is proud to host our 8th summer of cyber camps this summer in June. The camp will be open to all students entering into grades 6-12. "
+  grades: "9-12"
+  experience:
+      required: false
+      description: We will be using the CyberPatriot ELEMENTARY SCHOOL CYBER EDUCATION INITIATIVE.
+  sessions:
+    - duration: July 17-21, 9am-Noon (coed room)
+      in-person: true
+      spots: 10
+    - duration: July 17-21, 1pm-4pm (coed room)
+      in-person: true
+      spots: 0
+    - duration: July 17-21, 1pm-4pm (coed room)
+      in-person: true
+      spots: -5
+  objectives:
+    - title: Windows
+      description: Learn Windows
+    - title: Linux
+      description: Learn Linux
+  fee: "$100"
+  registration: https://forms.gle/GZBimbiiJFKGb4CZ6
