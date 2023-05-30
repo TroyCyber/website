@@ -56,7 +56,7 @@ show_sidetoc: true
         {% for session in camp.sessions -%}
             {% for section in session.sections -%}
                 <li>
-                    {{ session.duration }}, {{ section.time }} ({{ section.roomType }}){% if section.spots %} - <span {% if section.spots > 0 %}class="available">{{ section.spots }} spots remaining{% elsif section.spots == 0 %} class="waitlist">No spots remaining{% else %} class="waitlist">{{ section.spots | times: -1 }} spots on WAITLIST{% endif %}</span>{% endif %}
+                    {{ session.duration }}, {{ section.time }} ({{ section.roomType }}){% if section.spots %} - <span {% if section.spots > 0 %}class="available">{{ section.spots }} spots remaining{% elsif section.spots == 0 %} class="waitlist">No spots remaining{% else %} class="waitlist">{{ section.spots | times: -1 }} students on WAITLIST{% endif %}</span>{% endif %}
                 </li>
             {% endfor -%}
         {% endfor -%}
