@@ -12,7 +12,7 @@ show_sidetoc: true
     {% assign url = camp.title | downcase | replace: ' ', '-' %}
         <div class="col-md-6">
             <a href="#{{ url }}">
-                <div class="text-left my-4 py-5 px-3 rounded-lg chulapa-overlay-img text-white" style="background-color: var(--primary)">
+                <div class="text-left my-4 py-5 px-3 rounded-lg chulapa-overlay-img text-white bg-secondary">
                 <h2 class="py-3">{{ camp.title }}</h2>
                 <p class="lead font-weight-light py-2">Grade Level: {{ camp.grades }}</p>
                 <p class="lead font-weight-light py-2">

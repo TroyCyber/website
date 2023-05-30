@@ -144,7 +144,8 @@ chulapa-skin:
   skin          : towards  # Optional predefined skins
   autothemer    :  # Bool: Use autotheming
   vars          :
-    primary     :   #default ["#007bff"] - Bootstrap blue
+    primary     : "#EB1E32"  #default ["#007bff"] - Bootstrap blue
+    secondary   : "#607a8d"
     info        : "#EB1E32"
     font-family-base: Heebo
     landingpage-chulapa-bg-color: "#18141D"
